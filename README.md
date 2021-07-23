@@ -147,6 +147,7 @@ This is footer of the website ( also have a subscribe to newletter thing )
 ###### copywrite => Enter you copy write message ( duh just copy paste the above the copyright thing in <FooterComponent> )
 
 // The Subscribe to email list thing will be added anything, wont be disturbing you
+// You gotta make the email subscribe thing yourself, its just a UI
 
 ## License
 
