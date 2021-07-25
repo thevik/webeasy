@@ -1,6 +1,6 @@
 # webeasy
 
-#### A react library to make UI making fast.
+#### A react library to make UI making fast
 
 [![NPM](https://img.shields.io/npm/v/webeasy.svg)](https://www.npmjs.com/package/webeasy) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
