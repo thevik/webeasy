@@ -1,6 +1,6 @@
 # webeasy
 
-#### A react library to make UI making fast.
+#### A react library to make UI making fast
 
 [![NPM](https://img.shields.io/npm/v/webeasy.svg)](https://www.npmjs.com/package/webeasy) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -149,6 +149,7 @@ This is footer of the website ( also have a subscribe to newletter thing )
 in the latest update ( very minor changes ) I changed the default font we use, and some styling according to that font also imporved some styling in the components to make it look better.
 
 // The Subscribe to email list thing will be added anything, wont be disturbing you
+// You gotta make the email subscribe thing yourself, its just a UI
 
 ## License
 
