@@ -18,16 +18,20 @@ export const NavbarComponent = (props) => {
 export const HeroComponent = (props) => {
   return (
     <div className={styles.hero}>
-    <p  className={styles.tagline}><h1>{props.tagline}</h1></p>
-    <p className={styles.subtagline}><h4>{props.subtagline}</h4></p>
-    <div style={{display: 'flex', flexDirextion: 'row', justifyContent: 'space-between'}}>
+    <div style={{height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '-50px'}}>
+    <div>
+      <p  className={styles.tagline}><h1>{props.tagline}</h1></p>
+      <p className={styles.subtagline}><h4>{props.subtagline}</h4></p>
       <div style={{display: 'flex', flexDirection: 'row'}}>
         <a href={props.firstBtnHref}><button style={{backgroundColor: props.buttoncolor, marginRight: 10}}>{props.firstBtnText}</button></a>
         <a href={props.secondBtnHref}><button style={{backgroundColor: props.buttoncolor}}>{props.secondBtnText}</button></a>
       </div>
+    </div>
+    <div style={{display: 'flex', flexDirextion: 'row', justifyContent: 'space-between'}}>
       <img src={props.image} className={styles.heroimage}></img>
     </div>
-    <div style={{marginTop: -20, display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+    </div>
+    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
       <div style={{height: 200, width: 345, backgroundColor: 'rgb(235, 232, 232)', paddingLeft: 10}}>
         <h1 style={{fontWeight: 'bold', color: 'rgb(65, 105, 225)'}}>{props.firstBoxTitle}</h1>
         <p style={{fontSize: 18}}>{props.firstBoxSubTitle}</p>
@@ -74,7 +78,7 @@ export const FooterComponent  = (props) => {
       <p style={{color: '#737372',marginTop: -15}}>{props.subtitle}</p>
       <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
         <input type="email" placeholder="Enter Your Email" style={{height: 50, alignItems: 'center', display: 'flex', fontSize: 20, fontWeight: 800, paddingLeft: 10}}></input>
-        <button style={{height: 61, width: 200, borderRadius: 0, alignItems: 'center', display: 'flex', backgroundColor: "rgb(65, 105, 225)", borderStyle: 'solid', borderWidth: 5, borderColor: '#dedede'}}><p style={{color: '#fff'}}>Subscribe</p></button>
+        <button style={{height: 61.9, width: 200, borderRadius: 0, alignItems: 'center', display: 'flex', backgroundColor: "rgb(65, 105, 225)", borderStyle: 'solid', borderWidth: 5, borderColor: '#dedede'}}><p style={{color: '#fff'}}>Subscribe</p></button>
       </div>
       <a>{props.copyright}</a>
     </div>
@@ -84,13 +88,13 @@ export const FooterComponent  = (props) => {
 export const ImageTextComponent = (props) => {
   return (
     <div className={styles.imagetextcomponent}>
-      <div style={{display: 'flex', flexDirection: 'row'}}>
-        <div style={{width: 575}}>
+      <div style={{display: 'flex', flexDirection: 'row', height: '100%', alignItems: 'center'}}>
+        <div style={{width: 550}}>
           <h1>{props.title}</h1>
           <p style={{color: '#737372',marginTop: -15, fontSize: 18}}>{props.subtitle}</p>
         </div>
         <div>
-          <img src={props.image} style={{height: 380, width: 475, marginTop: 45, marginLeft: 5}}></img>
+          <img src={props.image} style={{height: 380, width: 475, marginLeft: 5}}></img>
         </div>
       </div>
     </div>

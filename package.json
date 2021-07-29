@@ -1,6 +1,6 @@
 {
   "name": "webeasy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A react library to make UI making fast.",
   "author": "thevik",
   "license": "MIT",
@@ -67,6 +67,10 @@
     "library",
     "javascript",
     "UI",
-    "fast."
+    "user interface",
+    "html",
+    "css",
+    "simple",
+    "utility"
   ]
 }

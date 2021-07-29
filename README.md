@@ -146,6 +146,8 @@ This is footer of the website ( also have a subscribe to newletter thing )
 ###### substitle => Again that tagline like thing
 ###### copywrite => Enter you copy write message ( duh just copy paste the above the copyright thing in <FooterComponent> )
 
+in the latest update ( very minor changes ) I changed the default font we use, and some styling according to that font also imporved some styling in the components to make it look better.
+
 // The Subscribe to email list thing will be added anything, wont be disturbing you
 
 ## License

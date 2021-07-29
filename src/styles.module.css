@@ -93,7 +93,6 @@ p {
   height: 375px;
   width: 350px;
   transition: all 0.5s ease 0s;
-  margin-top: -14.5pc;
 }
 
 .horizontalboxcomponent {
@@ -105,10 +104,9 @@ p {
 }
 
 .horizontalbox {
-  height: 25pc;
+  height: 21pc;
   width: 325px;
   background-color: royalblue;
-  justify-content: center;
   transition: all 0.5s ease 0s;
   text-align: center;
   padding-left: 10px;
