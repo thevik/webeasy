@@ -35,6 +35,11 @@ class Example extends Component {
 }
 ```
 
+![hero](https://user-images.githubusercontent.com/87564479/127687386-1f0ff110-b187-4995-a4c3-ae724d0a1c9a.png)
+![imagetext](https://user-images.githubusercontent.com/87564479/127687391-51721c48-4cd8-424d-8f44-e7973a8e192e.png)
+![3box](https://user-images.githubusercontent.com/87564479/127687382-d12e6dfd-b76a-4597-ae89-bc3b6f070ee4.png)
+### These are some of the images of website the website you can make using this library :)
+
 ## NavbarComponent
 
 ```jsx
